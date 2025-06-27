@@ -1,0 +1,12 @@
+#basic calculator program
+
+a=5;
+b=10;
+addition=a+b;
+subtraction=a-b;
+multiplication=a*b;
+division=a/b;
+print("The addition of the two numberts is: ",addition);
+print("The subtraction of the two numbers is : ",subtraction);
+print("The multiplication of the two numbers is : ", multiplication);
+print("The division of the two numbers is : ",division);
