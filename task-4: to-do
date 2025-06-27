@@ -1,0 +1,12 @@
+todo = []
+
+while True:
+    a = input("Add/Remove/View/Exit: ").lower()
+    if a == "add":
+        todo.append(input("Task: "))
+    elif a == "remove":
+        todo.remove(input("Task: "))
+    elif a == "view":
+        print(todo)
+    elif a == "exit":
+        break
