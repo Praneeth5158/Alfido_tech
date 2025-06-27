@@ -1,0 +1,9 @@
+t = float(input("Temp: "))
+u = input("Unit (C/F/K): ").upper()
+
+if u == "C":
+    print("F:", (t * 9/5) + 32, "K:", t + 273.15)
+elif u == "F":
+    print("C:", (t - 32) * 5/9, "K:", ((t - 32) * 5/9) + 273.15)
+elif u == "K":
+    print("C:", t - 273.15, "F:", ((t - 273.15) * 9/5) + 32)
